@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Searcher</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="display-6">
+      Практическая задача 4.3.7 JS Core github-api-autocomplete
+    </h1>
+    <div class="container">
+      <div class="input-group input-group-lg">
+        <input
+          type="text"
+          placeholder="Type to search.."
+          class="form-control input"
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-lg"
+        />
+      </div>
+
+      <ul class="autocompletelist list-group"></ul>
+      <div class="card">
+        <ul class="repolist list-group list-group-flush"></ul>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

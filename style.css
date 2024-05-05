@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  text-align: center;
+  padding: 50px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+  }
+ 
+.card {
+  margin-top: 20px;
+}
