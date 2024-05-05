@@ -1,2 +1,2 @@
 # Searcher
- Stydying project
+ Studying project
